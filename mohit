@@ -1,0 +1,3 @@
+what is a code of webdriver setup.
+WebDriver driver= new ChromeDriver()
+System.setProperty("webdriver.driver.chromedriver","address path")
