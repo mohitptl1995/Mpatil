@@ -9,13 +9,18 @@ public class TestBase {
 	
 	public static WebDriver driver;
 	
-	public void initiate() {
-		
+	public void Initialization()
+	{
 		WebDriverManager.chromedriver().setup();
+		
 		driver= new ChromeDriver();
 		
 		driver.manage().window().maximize();
 		
 		driver.get("https://login.5paisa.com/");
-		}
+		
+		
+	
+	}
+
 }
